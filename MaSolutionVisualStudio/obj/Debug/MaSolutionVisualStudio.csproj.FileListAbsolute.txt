@@ -1,0 +1,14 @@
+c:\users\ipi\desktop\visual studio 2015\Projects\MaSolutionVisualStudio\MaSolutionVisualStudio\bin\Debug\MaSolutionVisualStudio.exe.config
+c:\users\ipi\desktop\visual studio 2015\Projects\MaSolutionVisualStudio\MaSolutionVisualStudio\bin\Debug\MaSolutionVisualStudio.exe
+c:\users\ipi\desktop\visual studio 2015\Projects\MaSolutionVisualStudio\MaSolutionVisualStudio\bin\Debug\MaSolutionVisualStudio.pdb
+c:\users\ipi\desktop\visual studio 2015\Projects\MaSolutionVisualStudio\MaSolutionVisualStudio\obj\Debug\MaSolutionVisualStudio.csprojResolveAssemblyReference.cache
+c:\users\ipi\desktop\visual studio 2015\Projects\MaSolutionVisualStudio\MaSolutionVisualStudio\obj\Debug\MainWindow.g.cs
+c:\users\ipi\desktop\visual studio 2015\Projects\MaSolutionVisualStudio\MaSolutionVisualStudio\obj\Debug\App.g.cs
+c:\users\ipi\desktop\visual studio 2015\Projects\MaSolutionVisualStudio\MaSolutionVisualStudio\obj\Debug\MaSolutionVisualStudio_MarkupCompile.cache
+c:\users\ipi\desktop\visual studio 2015\Projects\MaSolutionVisualStudio\MaSolutionVisualStudio\obj\Debug\MaSolutionVisualStudio_MarkupCompile.lref
+c:\users\ipi\desktop\visual studio 2015\Projects\MaSolutionVisualStudio\MaSolutionVisualStudio\obj\Debug\MainWindow.baml
+c:\users\ipi\desktop\visual studio 2015\Projects\MaSolutionVisualStudio\MaSolutionVisualStudio\obj\Debug\MaSolutionVisualStudio.g.resources
+c:\users\ipi\desktop\visual studio 2015\Projects\MaSolutionVisualStudio\MaSolutionVisualStudio\obj\Debug\MaSolutionVisualStudio.Properties.Resources.resources
+c:\users\ipi\desktop\visual studio 2015\Projects\MaSolutionVisualStudio\MaSolutionVisualStudio\obj\Debug\MaSolutionVisualStudio.csproj.GenerateResource.Cache
+c:\users\ipi\desktop\visual studio 2015\Projects\MaSolutionVisualStudio\MaSolutionVisualStudio\obj\Debug\MaSolutionVisualStudio.exe
+c:\users\ipi\desktop\visual studio 2015\Projects\MaSolutionVisualStudio\MaSolutionVisualStudio\obj\Debug\MaSolutionVisualStudio.pdb

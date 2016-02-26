@@ -1,0 +1,56 @@
+﻿@model IEnumerable<DMS_120_Web_Exercice_MVC5_EcoleMondor.Models.Etudiant>
+
+@{
+    ViewBag.Title = "List";
+}
+
+<h2>ListEtudiants</h2>
+
+<p>
+    @Html.ActionLink("Create New", "CreerEtudiant")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nom)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Prenom)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Addresse)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Telephone)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nom)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Prenom)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Addresse)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Telephone)
+        </td>
+        <td>
+            @Html.ActionLink("Modifier", "ModifierConfirmation", new { id=item.Id }) |
+            @Html.ActionLink("Supprimer", "SupprimerConfirmation", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

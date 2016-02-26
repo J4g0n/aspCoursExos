@@ -1,0 +1,39 @@
+﻿@model List<ASPapp.Models.Stagiaire>
+@{
+    ViewBag.Title = "Stagiaire";
+}
+
+<h2>Stagiaires</h2>
+<table>
+    <tr>
+        <th>
+            Identifiant
+        </th>
+        <th>
+            Nom
+        </th>
+        <th>
+            Prenom
+        </th>
+    </tr>
+    @{ 
+        foreach(var stagiaire in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(model => stagiaire.identifiant)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => stagiaire.nom)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => stagiaire.prenom)
+                </td>
+                <td>
+                    @Html.ActionLink("Modifier", "Modifier", new { id = stagiaire.identifiant })
+                </td>
+            </tr>
+        }
+    }  
+</table>
+

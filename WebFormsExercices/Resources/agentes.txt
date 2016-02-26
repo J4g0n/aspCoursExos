@@ -1,0 +1,6 @@
+﻿AGENT1;	Pierre;		36;	26 avenue de l'arbre vert;
+AGENT2;	Jacques;	42;	42 allée des pétunias;
+AGENT3;	Marie;		24;	5 rue des platanes;
+AGENT4;	Sophie;		34;	12 place de la république;
+AGENT5;	Mélanie;	38;	24 impasse du palais;
+AGENT6;	Didier;	28;	4 allée des maréchaux;
