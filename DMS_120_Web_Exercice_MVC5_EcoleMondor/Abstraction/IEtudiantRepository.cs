@@ -10,5 +10,13 @@ namespace DMS_120_Web_Exercice_MVC5_EcoleMondor.Abstraction
     interface IEtudiantRepository
     {
         List<Etudiant> ListeEtudiant();
+
+        bool Creer(Etudiant a);
+
+        bool Modifier(Etudiant a);
+
+        bool Supprimer(int id);
+
+        Etudiant Recuperer(int id);
     }
 }

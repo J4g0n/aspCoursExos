@@ -130,6 +130,9 @@
     <Content Include="scripts\jquery-1.10.2.js" />
     <Content Include="scripts\jquery-1.10.2.min.js" />
     <Content Include="scripts\modernizr-2.6.2.js" />
+    <Content Include="SQLScripts\createDb.sql" />
+    <Content Include="SQLScripts\dropDb.sql" />
+    <Content Include="SQLScripts\insertDb.sql" />
     <Content Include="Web.config" />
     <Content Include="Views\Etudiant\List.cshtml" />
     <Content Include="Views\Etudiant\SupprimerConfirmation.cshtml" />
@@ -146,8 +149,10 @@
     </Compile>
     <Compile Include="Models\Etudiant.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\EtudiantRepositorySQLServerImpl.cs" />
     <Compile Include="Repositories\EtudiantRepositoryRAMImpl.cs" />
     <Compile Include="Repositories\MainRepository.cs" />
+    <Compile Include="Repositories\ParametresBD.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
@@ -187,7 +192,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>49383</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:49383/</IISUrl>
+          <IISUrl>http://localhost:8080/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

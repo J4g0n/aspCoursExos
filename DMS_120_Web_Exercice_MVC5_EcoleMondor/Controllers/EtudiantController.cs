@@ -10,30 +10,31 @@ namespace DMS_120_Web_Exercice_MVC5_EcoleMondor.Controllers
 {
     public class EtudiantController : Controller
     {
+        static EtudiantRepositorySQLServerImpl etudiantRepository = new EtudiantRepositorySQLServerImpl();
         // GET: Etudiant
         public ActionResult List()
         {
-            List<Etudiant> listeEtudiants = new EtudiantRepositoryRAMImpl().ListeEtudiant();
+            List<Etudiant> listeEtudiants = etudiantRepository.ListeEtudiant();
             return View(listeEtudiants);
         }
         public ActionResult ModifierConfirmation(int id)
         {
-            Etudiant etudiant = new EtudiantRepositoryRAMImpl().Recuperer(id);
+            Etudiant etudiant = etudiantRepository.Recuperer(id);
             return View(etudiant);
         }
         public ActionResult Modifier(Etudiant model)
         {
-            new EtudiantRepositoryRAMImpl().Modifier(model);
+            etudiantRepository.Modifier(model);
             return RedirectToAction("List", "Etudiant");
         }
         public ActionResult SupprimerConfirmation(int id)
         {
-            Etudiant etudiant = new EtudiantRepositoryRAMImpl().Recuperer(id);
+            Etudiant etudiant = etudiantRepository.Recuperer(id);
             return View(etudiant);
         }
         public ActionResult Supprimer(int id)
         {
-            new EtudiantRepositoryRAMImpl().Supprimer(id);
+            etudiantRepository.Supprimer(id);
             return RedirectToAction("List", "Etudiant");
         }
         public ActionResult CreerEtudiant()
@@ -42,7 +43,7 @@ namespace DMS_120_Web_Exercice_MVC5_EcoleMondor.Controllers
         }
         public ActionResult Creer(Etudiant etudiant)
         {
-            new EtudiantRepositoryRAMImpl().Creer(etudiant);
+            etudiantRepository.Creer(etudiant);
             return RedirectToAction("List", "Etudiant");
         }
     }
